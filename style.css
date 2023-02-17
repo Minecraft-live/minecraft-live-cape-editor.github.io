@@ -1,7 +1,178 @@
+@media only screen and (max-width: 1920px){
+
+    body{
+        background-image: url('Wallpapers-Minecraft.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #bodyy{
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #div1{
+        margin-left: 35%;
+        margin-top: calc(150px * 0.75);
+        width: calc(460px * 0.75);
+        background-color: #ffffff;
+        padding-left: calc(50px * 0.75);
+        padding-top: calc(30px * 0.75);
+        padding-bottom: calc(60px * 0.75);
+    }
+    #img1{
+        position: relative;
+        width: calc(120px * 0.75);
+    }
+    #p1{
+        position: relative;
+        top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: calc(30px * 0.75);
+        font-weight: bold;
+        margin-top: calc(-10px * 0.75);
+    }
+    #textbox{
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 87%;
+        border: 0;
+        border-bottom: 2px solid $gray;
+        outline: 0;
+        font-size: 1rem;
+        color: $white;
+        padding: calc(7px * 0.75) 0;
+        background: transparent;
+        transition: border-color 0.2s;
+    }
+    hr{
+        position: relative;
+        width: calc(400px * 0.75);
+        margin-right: calc(100px * 0.75);
+        margin-bottom: calc(17px * 0.75);
+    }
+    #label1{
+        position: relative;
+        color: #1b1b1b;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: calc(17px * 0.75);
+    }
+    #a1{
+        position: relative;
+        color: #108df3;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: calc(17px * 0.75);
+    }
+    #a1:hover{
+        position: relative;
+        text-decoration: underline;
+        color: #666666;
+
+    }
+    #a2{
+        position: relative;
+        font-size: calc(17px * 0.75);
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #108df3;
+        float: left;
+        margin-right: 0px;
+    }
+    #a2:hover{
+        position: relative;
+        text-decoration: underline;
+        color: #666666;
+    }
+    #a3{
+        position: relative;
+        float: left;
+        margin-left: calc(-10px * 0.75);
+    }
+    #img2{
+        position: relative;
+        padding-left: 2px;
+        width: calc(43px * 0.6);
+
+    }
+
+    #expla{
+        position: relative;
+        padding-left: 2px;
+        width: calc(70px * 0.6);
+        padding: 5px;
+    }
+
+    #submit{
+        position: relative;
+        width: calc(120px * 0.75);
+        background-color: #00a642;
+        color: white;
+        font-size: calc(18px * 0.75);
+        padding: calc(7px * 0.75);
+        border: 1px solid #22e500b6;
+        margin-left: calc(296px * 0.75);
+        margin-top: calc(15px * 0.75);
+        opacity: 0.9;
+    }
+    #submit:hover{
+        transition: 0.5s;
+        cursor: pointer;
+        opacity: 1;
+        background-color: #00dc58;
+    }
+    #div2{
+        margin-left: 35%;
+        height: calc(60px * 0.75);
+        margin-top: calc(22px * 0.75);
+    }
+    #img3{
+        width: calc(55px * 0.75);
+        float: left;
+        margin-left: calc(50px * 0.75);
+    }
+    #label2{
+        font-size: calc(19px * 0.75);
+        float: left;
+        margin-top: calc(19px * 0.75);
+    }
+    #button1{
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
+        width: calc(510px * 0.75);
+    }
+    #button1:hover{
+        cursor: pointer;
+        background-color: #e5e5e5;
+        border: 1px solid #e5e5e5;
+    }
+
+    #a4{
+        color: black;
+        text-decoration: none;
+    }
+    #a4:hover{
+        text-decoration: underline;
+    }
+    #a5{
+        color: black;
+        margin-left: calc(20px * 0.75) ;
+        text-decoration: none;
+    }
+    #a5:hover{
+        text-decoration: underline;
+    }
+
+    p{
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+    }
+}
 
 
 
-
+@media only screen and (min-width: 1990px){
 
   body{
       background-image: url('mirecraft_extend.png');
@@ -172,3 +343,4 @@
     text-decoration: none;
   }
 
+}
